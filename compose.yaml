@@ -1,0 +1,6 @@
+services:
+  todo-app:
+    build: .
+    ports:
+      - "5000:5000"
+    container_name: todo-list
